@@ -1,9 +1,371 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "categories": [
+    {
+      "name": "Fast Food",
+      "description": "burgers,hamburgers,hot dogs, fries, nuggets",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fastfood-category.png",
+      "createdAt": 1644673371315,
+      "updatedAt": 1644673371315,
+      "id": 2
+    },
+    {
+      "name": "SaLad",
+      "description": "Lorem ipsum dolor sit amet consec adipisicing elit.",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/salad-catagory.png",
+      "createdAt": 1644674338320,
+      "updatedAt": 1644674338320,
+      "id": 3
+    },
+    {
+      "name": "Fruit",
+      "description": "Exotic fruits, reviews, legumes, frains.",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit-category.png",
+      "createdAt": 1644674927229,
+      "updatedAt": 1644674927229,
+      "id": 6
+    },
+    {
+      "name": "Side Dishes",
+      "description": "sushi, rolls, sauces, poppies,seafood, fish.",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/side-dishes-category.png",
+      "createdAt": 1644675043136,
+      "updatedAt": 1644675043136,
+      "id": 5
+    },
+    {
+      "name": "Drink",
+      "description": "Lorem ipsum dolor sit amet consec adipisicing elit.",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/drink-category.png",
+      "createdAt": 1644675132264,
+      "updatedAt": 1644675132264,
+      "id": 4
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "food": [
+    {
+      "name": "Guava",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit/guava.png",
+      "category": 6,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843284886,
+      "updatedAt": 1644843284886,
+      "id": 1
+    },
+    {
+      "name": "Mango",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit/mango.png",
+      "category": 6,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843334316,
+      "updatedAt": 1644843334316,
+      "id": 2
+    },
+    {
+      "name": "Melon",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit/melon.png",
+      "category": 6,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-seller",
+      "createdAt": 1644843419717,
+      "updatedAt": 1644843419717,
+      "id": 3
+    },
+    {
+      "name": "Oranges",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit/oranges.png",
+      "category": 6,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843468370,
+      "updatedAt": 1644843468370,
+      "id": 4
+    },
+    {
+      "name": "Pineapple",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit/pineapple.png",
+      "category": 6,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-vote",
+      "createdAt": 1644843503083,
+      "updatedAt": 1644843503083,
+      "id": 5
+    },
+    {
+      "name": "Plum",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit/plum.png",
+      "category": 6,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-seller",
+      "createdAt": 1644843537089,
+      "updatedAt": 1644843537089,
+      "id": 6
+    },
+    {
+      "name": "Pomegranate",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit/pomegranate.png",
+      "category": 6,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843575779,
+      "updatedAt": 1644843575779,
+      "id": 7
+    },
+    {
+      "name": "Watermelon",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fruit/watermelon.png",
+      "category": 6,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843638362,
+      "updatedAt": 1644843638362,
+      "id": 8
+    },
+    {
+      "name": "XL",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/drink/XL.png",
+      "category": 4,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843748675,
+      "updatedAt": 1644843748675,
+      "id": 9
+    },
+    {
+      "name": "Orange Juice",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/drink/orange-juice.png",
+      "category": 4,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843786564,
+      "updatedAt": 1644843786564,
+      "id": 10
+    },
+    {
+      "name": "Bánh kẹp",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fastfood/banh-kep.png",
+      "category": 2,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843868020,
+      "updatedAt": 1644843868020,
+      "id": 11
+    },
+    {
+      "name": "Bánh mì",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fastfood/banh-mi.png",
+      "category": 2,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-seller",
+      "createdAt": 1644843909301,
+      "updatedAt": 1644843909301,
+      "id": 12
+    },
+    {
+      "name": "Burger King",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fastfood/burger-king.png",
+      "category": 2,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-vote",
+      "createdAt": 1644843942007,
+      "updatedAt": 1644843942007,
+      "id": 13
+    },
+    {
+      "name": "Pite Filled",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fastfood/pita-filled.png",
+      "category": 2,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-vote",
+      "createdAt": 1644843970046,
+      "updatedAt": 1644843970046,
+      "id": 14
+    },
+    {
+      "name": "Pita",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/fastfood/pita.png",
+      "category": 2,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644843994797,
+      "updatedAt": 1644843994797,
+      "id": 15
+    },
+    {
+      "name": "Salad Clipart",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/salad/Salad-PNG-Clipart.png",
+      "category": 3,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844042689,
+      "updatedAt": 1644844042689,
+      "id": 16
+    },
+    {
+      "name": "Tuna Salad",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/salad/Tuna-Salad-PNG.png",
+      "category": 3,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-vote",
+      "createdAt": 1644844075472,
+      "updatedAt": 1644844075472,
+      "id": 17
+    },
+    {
+      "name": "Vegetable Salad",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/salad/Vegetable-Salad-PNG.png",
+      "category": 3,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844103069,
+      "updatedAt": 1644844103069,
+      "id": 18
+    },
+    {
+      "name": "Greek Salad",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/salad/greek%20salad.png",
+      "category": 3,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844130384,
+      "updatedAt": 1644844130384,
+      "id": 19
+    },
+    {
+      "name": "Taco Salad",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/salad/taco-salad.png",
+      "category": 3,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844154959,
+      "updatedAt": 1644844154959,
+      "id": 20
+    },
+    {
+      "name": "Byso",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/side-dishes/byso.png",
+      "category": 5,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844194868,
+      "updatedAt": 1644844194868,
+      "id": 21
+    },
+    {
+      "name": "Chipotle Burrito",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/side-dishes/chipotle-burrito.png",
+      "category": 5,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-seller",
+      "createdAt": 1644844252482,
+      "updatedAt": 1644844252482,
+      "id": 22
+    },
+    {
+      "name": "Fried Rice",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/side-dishes/fried-rice.png",
+      "category": 5,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844281038,
+      "updatedAt": 1644844281038,
+      "id": 23
+    },
+    {
+      "name": "Love pik",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/side-dishes/love-pik.png",
+      "category": 5,
+      "price": 48,
+      "weight": 290,
+      "trend": "best-vote",
+      "createdAt": 1644844309493,
+      "updatedAt": 1644844309493,
+      "id": 24
+    },
+    {
+      "name": "Pasta",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/side-dishes/pasta.png",
+      "category": 5,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844339288,
+      "updatedAt": 1644844339288,
+      "id": 25
+    },
+    {
+      "name": "Vegankebab",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/side-dishes/vegankebab.png",
+      "category": 5,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844365788,
+      "updatedAt": 1644844365788,
+      "id": 26
+    },
+    {
+      "name": "Yellow Rice",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur",
+      "image": "https://raw.githubusercontent.com/carydeep/json-food-delivery/main/public/side-dishes/yellow-rice.png",
+      "category": 5,
+      "price": 48,
+      "weight": 290,
+      "trend": "none",
+      "createdAt": 1644844389895,
+      "updatedAt": 1644844389895,
+      "id": 27
+    }
   ],
-  "profile": { "name": "typicode" }
+  "orderDeliver": []
 }
